@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Chiffreur IA</title>
+  <desc id="desc">Assistant IA pour chiffrage CVC, plomberie et lots techniques.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#f4f7fc"/>
+      <stop offset="1" stop-color="#e7f2f3"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f4fa3"/>
+      <stop offset="1" stop-color="#20858f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#102449" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <path d="M0 0h1200v630H0z" fill="none" stroke="#d6dde8" stroke-width="2"/>
+  <path d="M0 92c165 28 318 12 456-47 95-40 185-52 270-34 121 26 231 88 474 43v576H0z" fill="#eef3fb" opacity="0.75"/>
+
+  <g transform="translate(72 70)">
+    <text x="0" y="0" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" dominant-baseline="hanging">Chiffreur <tspan fill="#1f4fa3">IA</tspan></text>
+    <rect x="0" y="76" width="376" height="44" rx="22" fill="#ffffff" stroke="#bdcbe4" stroke-width="2"/>
+    <text x="22" y="104" fill="#1f4fa3" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">WORKFLOW IA POUR LOTS TECHNIQUES</text>
+
+    <text x="0" y="190" fill="#102449" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">Plus de dossiers.</text>
+    <text x="0" y="274" fill="#102449" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">Moins de recherche.</text>
+
+    <text x="0" y="344" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">L'IA lit les pièces, retrouve les sources,</text>
+    <text x="0" y="386" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">propose les PU et marque les points à contrôler.</text>
+
+    <g transform="translate(0 466)">
+      <rect x="0" y="0" width="112" height="40" rx="8" fill="#1f4fa3"/>
+      <rect x="126" y="0" width="96" height="40" rx="8" fill="#20858f"/>
+      <rect x="236" y="0" width="162" height="40" rx="8" fill="#263444"/>
+      <text x="56" y="26" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">DPGF</text>
+      <text x="174" y="26" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">BPU</text>
+      <text x="317" y="26" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">CVC / Plomberie</text>
+    </g>
+  </g>
+
+  <g transform="translate(730 86)" filter="url(#shadow)">
+    <rect width="384" height="468" rx="16" fill="#ffffff" stroke="#d8e0ea"/>
+    <g transform="translate(28 28)">
+      <text x="0" y="18" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">PROJET AO-2026-184</text>
+      <text x="0" y="56" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">Dossier CVC</text>
+      <rect x="214" y="8" width="112" height="38" rx="19" fill="#e8f4f5"/>
+      <text x="270" y="33" text-anchor="middle" fill="#20858f" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">Prêt</text>
+
+      <g transform="translate(0 100)">
+        <rect width="150" height="106" rx="12" fill="#f7f8fb" stroke="#d8e0ea"/>
+        <rect x="176" width="150" height="106" rx="12" fill="#f7f8fb" stroke="#d8e0ea"/>
+        <text x="24" y="34" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Postes</text>
+        <text x="24" y="82" fill="#1f4fa3" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900">128</text>
+        <text x="200" y="34" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">À contrôler</text>
+        <text x="200" y="82" fill="#b7791f" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900">13</text>
+      </g>
+
+      <g transform="translate(0 242)">
+        <rect width="326" height="58" rx="10" fill="#eef3fb"/>
+        <circle cx="28" cy="29" r="12" fill="#1f7a57"/>
+        <path d="M22 29l5 5 10-12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="56" y="36" fill="#263444" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="850">Sources retrouvées</text>
+
+        <rect y="78" width="326" height="58" rx="10" fill="#eef3fb"/>
+        <circle cx="28" cy="107" r="12" fill="#1f7a57"/>
+        <path d="M22 107l5 5 10-12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="56" y="114" fill="#263444" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="850">Prix unitaires proposés</text>
+
+        <rect y="156" width="326" height="58" rx="10" fill="#fff4dc"/>
+        <circle cx="28" cy="185" r="12" fill="#b7791f"/>
+        <text x="28" y="192" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">!</text>
+        <text x="56" y="192" fill="#74420f" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="850">Alertes métier visibles</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="72" y="584" width="1056" height="2" fill="url(#brand)" opacity="0.7"/>
+</svg>
