@@ -1,81 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
   <title id="title">Chiffreur IA</title>
-  <desc id="desc">Assistant IA pour chiffrage CVC, plomberie et lots techniques.</desc>
+  <desc id="desc">Chiffrez plus d'appels d'offres. Moins de préparation manuelle.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.48" stop-color="#f4f7fc"/>
-      <stop offset="1" stop-color="#e7f2f3"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbfaf6"/>
+      <stop offset="0.52" stop-color="#fbfaf6"/>
+      <stop offset="1" stop-color="#e4eef0"/>
     </linearGradient>
-    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1f4fa3"/>
-      <stop offset="1" stop-color="#20858f"/>
+    <radialGradient id="rightGlow" cx="76%" cy="50%" r="52%">
+      <stop offset="0" stop-color="#eef6f7" stop-opacity="0.96"/>
+      <stop offset="0.58" stop-color="#eef6f7" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#eef6f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f5f8f"/>
+      <stop offset="1" stop-color="#4a8f64"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#102449" flood-opacity="0.16"/>
-    </filter>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0v52" fill="none" stroke="#d5dddf" stroke-width="1" opacity="0.52"/>
+    </pattern>
   </defs>
 
   <rect width="1200" height="630" fill="url(#background)"/>
-  <path d="M0 0h1200v630H0z" fill="none" stroke="#d6dde8" stroke-width="2"/>
-  <path d="M0 92c165 28 318 12 456-47 95-40 185-52 270-34 121 26 231 88 474 43v576H0z" fill="#eef3fb" opacity="0.75"/>
+  <rect width="1200" height="630" fill="url(#rightGlow)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.62"/>
+  <path d="M0 0h1200v630H0z" fill="none" stroke="#d9dedc" stroke-width="2"/>
 
-  <g transform="translate(72 70)">
-    <text x="0" y="0" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" dominant-baseline="hanging">Chiffreur <tspan fill="#1f4fa3">IA</tspan></text>
-    <rect x="0" y="76" width="376" height="44" rx="22" fill="#ffffff" stroke="#bdcbe4" stroke-width="2"/>
-    <text x="22" y="104" fill="#1f4fa3" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">WORKFLOW IA POUR LOTS TECHNIQUES</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(82 72)">
+      <rect x="0" y="0" width="468" height="46" rx="23" fill="#ffffff" stroke="#b8c9d4"/>
+      <text x="20" y="30" fill="#16476b" font-size="22" font-weight="700">Workflow IA pour CVC &amp; lots techniques</text>
 
-    <text x="0" y="190" fill="#102449" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">Plus de dossiers.</text>
-    <text x="0" y="274" fill="#102449" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">Moins de recherche.</text>
+      <text x="0" y="218" fill="#111820" font-size="116" font-weight="900">Chiffreur IA</text>
 
-    <text x="0" y="344" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">L'IA lit les pièces, retrouve les sources,</text>
-    <text x="0" y="386" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">propose les PU et marque les points à contrôler.</text>
+      <text x="0" y="324" fill="#17202a" font-size="52" font-weight="700">Chiffrez plus d'appels d'offres.</text>
+      <text x="0" y="384" fill="#17202a" font-size="52" font-weight="700">Moins de préparation manuelle.</text>
 
-    <g transform="translate(0 466)">
-      <rect x="0" y="0" width="112" height="40" rx="8" fill="#1f4fa3"/>
-      <rect x="126" y="0" width="96" height="40" rx="8" fill="#20858f"/>
-      <rect x="236" y="0" width="162" height="40" rx="8" fill="#263444"/>
-      <text x="56" y="26" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">DPGF</text>
-      <text x="174" y="26" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">BPU</text>
-      <text x="317" y="26" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">CVC / Plomberie</text>
+      <rect x="0" y="444" width="360" height="7" rx="3.5" fill="url(#bar)"/>
+
+      <g transform="translate(0 470)" fill="#ffffff" stroke="#cbd7dc" font-size="18" font-weight="700">
+        <rect x="0" y="0" width="146" height="41" rx="8"/>
+        <rect x="158" y="0" width="156" height="41" rx="8"/>
+        <rect x="326" y="0" width="151" height="41" rx="8"/>
+        <text x="14" y="27" fill="#52616b">DCE analysés</text>
+        <text x="172" y="27" fill="#52616b">Prix retrouvés</text>
+        <text x="340" y="27" fill="#52616b">Sources prêtes</text>
+      </g>
+    </g>
+
+    <g transform="translate(878 82)">
+      <circle cx="13" cy="13" r="13" fill="#cfe3d5"/>
+      <circle cx="13" cy="13" r="7" fill="#4a8f64"/>
+      <text x="34" y="21" fill="#28533b" font-size="22" font-weight="700">clair · rapide · vérifiable</text>
     </g>
   </g>
 
-  <g transform="translate(730 86)" filter="url(#shadow)">
-    <rect width="384" height="468" rx="16" fill="#ffffff" stroke="#d8e0ea"/>
-    <g transform="translate(28 28)">
-      <text x="0" y="18" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">PROJET AO-2026-184</text>
-      <text x="0" y="56" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">Dossier CVC</text>
-      <rect x="214" y="8" width="112" height="38" rx="19" fill="#e8f4f5"/>
-      <text x="270" y="33" text-anchor="middle" fill="#20858f" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">Prêt</text>
-
-      <g transform="translate(0 100)">
-        <rect width="150" height="106" rx="12" fill="#f7f8fb" stroke="#d8e0ea"/>
-        <rect x="176" width="150" height="106" rx="12" fill="#f7f8fb" stroke="#d8e0ea"/>
-        <text x="24" y="34" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Postes</text>
-        <text x="24" y="82" fill="#1f4fa3" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900">128</text>
-        <text x="200" y="34" fill="#536171" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">À contrôler</text>
-        <text x="200" y="82" fill="#b7791f" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900">13</text>
-      </g>
-
-      <g transform="translate(0 242)">
-        <rect width="326" height="58" rx="10" fill="#eef3fb"/>
-        <circle cx="28" cy="29" r="12" fill="#1f7a57"/>
-        <path d="M22 29l5 5 10-12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="56" y="36" fill="#263444" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="850">Sources retrouvées</text>
-
-        <rect y="78" width="326" height="58" rx="10" fill="#eef3fb"/>
-        <circle cx="28" cy="107" r="12" fill="#1f7a57"/>
-        <path d="M22 107l5 5 10-12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="56" y="114" fill="#263444" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="850">Prix unitaires proposés</text>
-
-        <rect y="156" width="326" height="58" rx="10" fill="#fff4dc"/>
-        <circle cx="28" cy="185" r="12" fill="#b7791f"/>
-        <text x="28" y="192" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">!</text>
-        <text x="56" y="192" fill="#74420f" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="850">Alertes métier visibles</text>
-      </g>
-    </g>
-  </g>
-
-  <rect x="72" y="584" width="1056" height="2" fill="url(#brand)" opacity="0.7"/>
+  <path d="M1114 456v88c0 21-8 39-23 53s-34 21-56 21H990" fill="none" stroke="#b7cbd8" stroke-width="8"/>
 </svg>
